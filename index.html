@@ -1,3 +1,993 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Efficiency Portofolio Status Dashboard</title><style>
-body{font-family:Arial,sans-serif;color:#172b4d;margin:24px;background:#f7f8fa}h1{font-size:24px;margin:0 0 6px}.stamp{color:#5e6c84;margin:0 0 18px}table{border-collapse:collapse;width:100%;background:#fff;font-size:12px}th,td{border:1px solid #dfe1e6;padding:8px;vertical-align:top}th{background:#f1f2f4;text-align:left;position:sticky;top:0}p{margin:0 0 6px}a{color:#0052cc;text-decoration:none}.implemented{margin-bottom:10px}.implemented:last-child{margin-bottom:0}.meta{color:#5e6c84}.none{color:#7a869a}
-</style></head><body><h1>Efficiency Portofolio Status Dashboard</h1><p class="stamp">Generated from Confluence version 51 and live Jira data at 2026-08-14T21:06:52.789Z</p><table class="wrapped"><tbody><tr><th><p><strong>No.</strong></p></th><th><p><strong>Jira Key</strong></p></th><th><p><strong>Latest comments</strong></p></th><th><p><strong>Next Step</strong></p></th><th><p><strong>Estimated SP/Q savings</strong></p></th><th><p><strong>Jira Status / Current Labels</strong></p></th><th><p><strong>Days stayed in previous intake status</strong></p></th><th><p><strong>Days sits in current status</strong></p></th><th><p><strong>blocked by /depends on</strong></p></th><th><p><strong>is implemented by</strong></p></th></tr><tr><td><p>1</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-686251">WBXPLTFM-686251</a></p></td><td><p><strong>2026-07-29 Hancy Wang:</strong> Split DI to another Epic as https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358</p><p><strong>2026-07-19 ServiceNow-Jira updater:</strong> Assigned To synced from Jira: ambirdi -&gt;</p></td><td><div class="content-wrapper"><p class="p1">Amandeep/CCE provided it's current logics, existing tool already covered core CCE components which fulfilled the short-term quick win already. Then next phase of bot support out of the boundary is pending on arch office review with MCP support in the boundary. <br /><br />Break up/ seperate DI to #20 <a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358">WBXPLTFM-711358</a></p><p class="p1"><a href="webexteams://im?space=6e834050-70ab-11f1-81dd-d987b889420b">webexteams://im?space=6e834050-70ab-11f1-81dd-d987b889420b</a></p></div></td><td><p><br /></p></td><td><p><strong>Jira Status:</strong> Ready</p><p><strong>Current Labels:</strong> COGS-Efficiency, INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, fy27-portfolio, servicenow_problemtask</p></td><td><p>INTAKE_ARCH_REVIEW: 6.9 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000686251"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-686251&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-686251&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>2</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695270">WBXPLTFM-695270</a></p></td><td><p><strong>2026-08-12 Hancy Wang:</strong> Sunny is representing DI Ops (now Monami) and the intent is to leveraging AIOps to reduce the manual triage for the alerts which is still valid. And the action owner of the ask is on behave of PCC team.</p><p><strong>2026-08-12 Yan Lu:</strong> From Jeff: Hi, Yan, that wasn't raised by the PCC team, Sunny used to be DI Operations but now he is Tenant Provisioning. Sunny does not speak for the PCC. I will review but most likely we can close it.</p></td><td><p class="p1"><span class="s1">James:</span> 7/1: I have created the 5 top talker alert stories for us to work through.  The first of which Rajeesh on my team is going to take a look at and I may likely have him drive.  Will be getting the other 4 assigned with ownership over the next 48 hours</p><p><br /><a href="webexteams://im?space=dc14ff70-6f4b-11f1-a264-fb852ea271c5">webexteams://im?space=dc14ff70-6f4b-11f1-a264-fb852ea271c5</a></p></td><td><p><strong>1300</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> COGS-Efficiency, INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, fy27-portfolio</p></td><td><p>INTAKE_SCRUM_READY: 13.2 days</p></td><td><p>INTAKE_PO_REVIEW: 10.7 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-708795"><strong>WBXPLTFM-708795</strong></a><br>[Delivery][AIOE Intake] AI-Driven Alert Management for PCC<br><span class="meta">New · Rajeesh Rayaroth Mamangalavan</span></div><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-715372"><strong>WBXPLTFM-715372</strong></a><br>[Delivery]PCC agent 2.0 for AI-Driven Alert triage and auto grouping <br><span class="meta">New · Jimmy Zhou</span></div></td></tr><tr><td><p>3</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695660">WBXPLTFM-695660</a></p></td><td><p><strong>2026-08-13 Hector Manzo Flores:</strong> Customer is in process to get their LLM proxy credentials.</p><p><strong>2026-07-18 Hancy Wang:</strong> [~rowillis] Do we have design docs about PRIME somewhere so that the AIOE EAP team could check out the details first. Thx.</p></td><td><p>Request developer support to take over the PRIME current state, decouple w/ #16 of EAP enablement. </p></td><td><p><strong>441</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_EXTERNAL_BLOCKED, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_EXTERNAL_BLOCKED: 1.2 days</p></td><td><p>None</p></td><td><span class="none">None</span></td></tr><tr><td><p>4</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695595">WBXPLTFM-695595</a></p></td><td><p><strong>2026-08-13 Hector Manzo Flores:</strong> Putting this on hold while we wait for the other arquitecture office</p><p><strong>2026-07-20 Hancy Wang:</strong> S3 Storage Cost Estimate — Compressed Log Retention https://cisco-my.sharepoint.com/:t:/p/rbuddaba/IQAMhsHDGi0ATL_qlnUIwthfAWJ2lhc1Q6_fHdWH-KFd6uk</p></td><td><p><span class="s1">Will focus on #4 and #7 for the week of 20-26. </span></p><p><span class="s1">Schedule a syncup meeting w/ RaviTeja to understand the estimation of the detailed log sizes.  -AI Hancy to set it up w/ James. </span></p><p><span class="s1"><br />Alternative way of quick win could be through #7, via the MCP in the boundary. <br /><br />Intake process to be started - James </span></p><p class="p1"><span class="s1">Tan also raised <a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631">https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631</a> Log offloading to centralized storage <br /><br /></span></p><p class="p1"><span class="s1"><a href="webexteams://im?space=e07b1890-70d3-11f1-876b-3544897cc7fc">webexteams://im?space=e07b1890-70d3-11f1-876b-3544897cc7fc</a></span></p></td><td><p><strong>360</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000695595"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-695595&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-695595&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>5</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-696159">WBXPLTFM-696159</a></p></td><td><p><strong>2026-07-01 James Kelsall:</strong> Linking related prior discussion on planned change alarm suppression for context. WBXPLTFM-657812 includes the earlier Simpson TOI reference and notes on using existing EMS change suppression with regex/large-list support and event-management-layer suppression.</p></td><td><p>phase 1: Provide training to the team (put the detailed CIs in the changes etc w/ human efforts) to leverage existing feature -James <br />phase 2: further automated w/ AI<br /><a href="webexteams://im?space=05b67310-70e9-11f1-99cf-4f21f14821c2">webexteams://im?space=05b67310-70e9-11f1-99cf-4f21f14821c2</a></p></td><td><p><strong>350</strong></p></td><td><p><strong>Jira Status:</strong> In Progress</p><p><strong>Current Labels:</strong> INTAKE_ARCH_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_READY: 8.3 days</p></td><td><p>INTAKE_ARCH_REVIEW: 23.9 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713638"><strong>WBXPLTFM-713638</strong></a><br> AI-Powered Planned Change Alert Suppression<br><span class="meta">New · Unassigned</span></div></td></tr><tr><td><p>6</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695788">WBXPLTFM-695788</a></p></td><td><p><strong>2026-08-13 Simpson Chua:</strong> Meeting with Sunny and Monami to groom this further on Monday August 17th</p><p><strong>2026-07-23 Hancy Wang:</strong> [~rimelton] Rick, as per James, you are following up on the CMDB project. Could you pls help share the CMDB project Jira so that we could link this one as depend on/blocked by it?</p></td><td><p>Refocused the CMDB project, further followup needed.  -Rick PM this one. <br />James to follow up w/ Monami (related to CMDB one) <br /><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-702711" style="text-align: left;">WBXPLTFM-702711</a> as part of PF <a class="issue-link" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-595329">WBXPLTFM-595329</a> <br /><br /><a href="webexteams://im?space=f9d018a0-7cb7-11f1-bddf-3dacb315a1dd">webexteams://im?space=f9d018a0-7cb7-11f1-bddf-3dacb315a1dd</a></p></td><td><p><strong>350</strong></p></td><td><p><strong>Jira Status:</strong> Backlog</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, fy27-portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000695788"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-695788&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-695788&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>7</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695793">WBXPLTFM-695793</a></p></td><td><p><strong>2026-07-20 Hancy Wang:</strong> S3 Storage Cost Estimate — Compressed Log Retention https://cisco-my.sharepoint.com/:t:/p/rbuddaba/IQAMhsHDGi0ATL_qlnUIwthfAWJ2lhc1Q6_fHdWH-KFd6uk</p><p><strong>2026-07-14 Monami Basu:</strong> *Requirements* *1. Log collection &amp; retention needed -* *Server Type - Cisco CallManager - log list below* *Cisco CallManager* SDL: file get activelog cm/trace/ccm/sdl/SDL.* CallLog: file get activelog cm/trace/ccm/calllogs/calllogs_.txt *Cisco CTIManager* file get activelog cm/trace/cti/sdl/SDL.txt *Event Viewer-Application Log* file get activelog syslog/CiscoSyslog*.* *Event Viewer-System Log* file get activelog syslog/messages.* *Cisco RIS Data Collector PerfMonLog* file get activelog cm/l...</p></td><td><div class="content-wrapper"><p>Connected Tan w/ RaviTeja / Joseph from Ognjen's team for the CUCM log collection via MCP, early engagement started and waiting on the beta testing. </p><p><span class="s1">Tan also raised <a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631">https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631</a> Log offloading to centralized storage</span></p><p><span class="s1"><a href="webexteams://im?space=d3be3900-70d5-11f1-8075-9faf3220290a">webexteams://im?space=d3be3900-70d5-11f1-8075-9faf3220290a</a></span></p></div></td><td><p><strong>350</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-700080"><strong>WBXPLTFM-700080</strong></a><br>[Delivery] AI-Driven Log Collection &amp; Analysis via ServiceNow Ticket Integration<br><span class="meta">Will Not Implement · Jeven Zhou</span></div></td></tr><tr><td><p>8</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695924">WBXPLTFM-695924</a></p></td><td><p><strong>2026-08-07 Hancy Wang:</strong> This intake will mainly lead and done by Jeven and Tim's team alone with the partnership as the extended scrum team of Calvin's tools team.</p><p><strong>2026-08-04 Jeven Zhou:</strong> created one LAH integration epic to track https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-715304</p></td><td><p class="p1">-Ayub to help follow it up, Jeven is working on the POC w/ Calvin and Ogjen team's feedback/support. <br /><br /><a href="webexteams://im?space=ac12fb80-70b6-11f1-a1bc-81c7dbdcdcad">webexteams://im?space=ac12fb80-70b6-11f1-a1bc-81c7dbdcdcad</a></p></td><td><p><strong>300</strong></p></td><td><p><strong>Jira Status:</strong> In Progress</p><p><strong>Current Labels:</strong> INTAKE_REJECTED, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_PO_REVIEW: 15.8 days</p></td><td><p>INTAKE_REJECTED: 8.1 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000695924"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-695924&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-695924&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-715304"><strong>WBXPLTFM-715304</strong></a><br>[AIOE Delivery] WxCCE - Windows Patching - LAH integration<br><span class="meta">New · Jeven Zhou</span></div></td></tr><tr><td><p>9</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-694534">WBXPLTFM-694534</a></p></td><td><p><strong>2026-06-27 Yan Lu:</strong> Please refer to my project summary wiki. https://confluence-eng-gpk2.cisco.com/conf/spaces/DISO/pages/866297978/SNOW+Change+Creation+WBXPLTFM-694534</p></td><td><p>correlate w/ other similar asks for Snow -James (involve domain expert to join the skill development - )<br /><a href="webexteams://im?space=abe9b0a0-6f4d-11f1-91d5-e39f7332062b">webexteams://im?space=abe9b0a0-6f4d-11f1-91d5-e39f7332062b</a> </p><p class="p1"><span class="s1"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816">https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816</a> </span>[AIOE Intake] ServiceNow KB Creation Bot - AI-assisted knowledge article generation, validation, and publishing workflow</p></td><td><p><strong>225</strong></p></td><td><p><strong>Jira Status:</strong> In Progress</p><p><strong>Current Labels:</strong> INTAKE_SCRUM_DELIVERY, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, Uplift, fy27-portfolio</p></td><td><p>INTAKE_COMMITTED: 13.1 days</p></td><td><p>INTAKE_SCRUM_DELIVERY: 23.9 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-715351"><strong>WBXPLTFM-715351</strong></a><br>[Delivery][AIOE Intake] SNOW Change Creation agent(Skill)-FY27Q1 — AI-assisted change generation, validation, and collision detection for CTG<br><span class="meta">New · Jimmy Zhou</span></div><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-703906"><strong>WBXPLTFM-703906</strong></a><br>[Delivery][AIOE Intake] SNOW Change Creation agent(MCP)-FY26Q4 — AI-assisted change generation, validation, and collision detection for CTG<br><span class="meta">Done · Jimmy Zhou</span></div></td></tr><tr><td><p>10</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695559">WBXPLTFM-695559</a></p></td><td><p>No comments</p></td><td><p>Further break down for the user cases.<br />further review within AIOE, arch review, identify owners, followups etc -James</p></td><td><p><strong>195</strong></p></td><td><p><strong>Jira Status:</strong> In Progress</p><p><strong>Current Labels:</strong> INTAKE_SCRUM_DELIVERY, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_COMMITTED: 8.6 days</p></td><td><p>INTAKE_SCRUM_DELIVERY: 23.9 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-705171"><strong>WBXPLTFM-705171</strong></a><br>[Delivery][AIOE Intake] WxCCE UC Health Check<br><span class="meta">Done · Jeven Zhou</span></div></td></tr><tr><td><p>11</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695298">WBXPLTFM-695298</a></p></td><td><p><strong>2026-07-01 James Kelsall:</strong> [~mbasu]. I added some proposed next steps to WBXPLTFM-695298 around narrowing the alert/event correlation work into a measured pilot with curated examples first. I’d like to set up a meeting next week, the week of July 6, 2026, to review the approach and agree on the right starting point. Who do you think should be included from UC Ops to help define the correlation examples and validation process?</p><p><strong>2026-07-01 James Kelsall:</strong> Suggested next step is to narrow this from a broad alert/event correlation request into a measured pilot. The first phase should focus on discovery and curated examples rather than trying to build a generalized AI correlation engine immediately. We should identify 3-5 high-noise alert families from recent PCC UC and Infra Ops history where multiple alerts are believed to represent the same underlying issue, then have engineers label representative examples as correlated / not correlated with ...</p></td><td><p>make this measurable for DI/CCE in the KB (RAG way) for some examples  - , (Monami/Amandeep)  <br />Certain feature in EMS for manual correlation, then add the rules to the list (group), to the runbooks   <br /><a href="webexteams://im?space=24720230-71a5-11f1-9802-19f343fdc66d">webexteams://im?space=24720230-71a5-11f1-9802-19f343fdc66d</a>, James to help facilitate</p></td><td><p><strong>150</strong></p></td><td><p><strong>Jira Status:</strong> In Progress</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, fy27-portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 4.4 days</p></td><td><p>INTAKE_PO_REVIEW: 3.7 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000695298"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-695298&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-695298&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>12</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695661">WBXPLTFM-695661</a></p></td><td><p><strong>2026-08-13 Hector Manzo Flores:</strong> Custommer is in the process of acquiring their own LLM proxy credentials/key.</p><p><strong>2026-06-11 Rob Willis:</strong> Story Point Calculation based on a 4to 1 time savings as if ROOT was lost due to a lack of support and LLM capability. With no LLM support it is about 24 hours total and with Root it is reduced to 6 hours of engineer work. 15 RCAs per month</p></td><td><p>depend on 16, bundled together</p></td><td><p><strong>135</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_EXTERNAL_BLOCKED, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_EXTERNAL_BLOCKED: 1.2 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713637"><strong>WBXPLTFM-713637</strong></a><br>ROOT development for AUTONOMOUS BOT with API access to Tools containing data relevant to the RCA creation<br><span class="meta">New · Unassigned</span></div></td></tr><tr><td><p>13</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-697733">WBXPLTFM-697733</a></p></td><td><p><strong>2026-08-14 Hancy Wang:</strong> WBXPLTFM-722894 is a blocker for WBXPLTFM-697733 until the three validated manual MOPs and automation-readiness inputs are available.</p><p><strong>2026-08-14 Hancy Wang:</strong> WBXPLTFM-722894 blocks WBXPLTFM-697733 until the three validated manual MOPs and automation-readiness inputs are available.</p></td><td><p><span style="color:var(--ds-text,#172b4d);">Created Jiras to track DI and CCE cases. <br /><br />gathering the list of MACD (moves /add changes / deletions) items, the implementation process/documentation for each, access requirements, inputs and outputs (pick typical 2-3 to see, like FW related)</span></p></td><td><p><strong>82</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_ARCH_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_PO_REVIEW: 0.0 days</p></td><td><p>INTAKE_ARCH_REVIEW: 1.2 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000697733"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-697733&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-697733&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>14</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695872">WBXPLTFM-695872</a></p></td><td><p>No comments</p></td><td><p> Operation tooling automation team to continue? <br />-James to check w/ Oggie / Calvin...</p></td><td><p><strong>50</strong></p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> COGS-Efficiency, INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 1.5 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p>None</p></td><td><span class="none">None</span></td></tr><tr><td><p>15</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-671890">WBXPLTFM-671890</a></p></td><td><p><strong>2026-06-18 James Kelsall:</strong> Needs a follow up discussion on overlap with AWA and possible AI integrations with AWA to address gaps</p><p><strong>2026-06-04 Amandeep Birdi:</strong> Testing API access - please ignore this comment.</p></td><td><p>It will be implemented in EAP, tools will be done by Ognjen's team and SOs for skills; <br /><br />James (6/18):<span style="color:var(--ds-text,#172b4d);"><span> </span>Needs a follow up discussion on overlap with AWA and possible AI integrations with AWA to address gaps <br /></span></p></td><td><p><strong>47</strong></p></td><td><p><strong>Jira Status:</strong> Blocked</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_TUNING: 33.6 days</p></td><td><p>INTAKE_PO_REVIEW: 23.9 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-681318"><strong>WBXPLTFM-681318</strong></a><br>FY26Q4 - WxCCE QM Bot: Webex Integration Research &amp; PoC (Bot SDK, Messaging API, MCP)<br><span class="meta">Will Not Implement · Rocky Chi [X]</span></div></td></tr><tr><td><p>16</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695648">WBXPLTFM-695648</a></p></td><td><p><strong>2026-07-25 Hancy Wang:</strong> Here is the Jira link to track the platform spending intake progress: [https://jira-eng-gpk2.cisco.com/jira/browse/INTAKE-1550](https://jira-eng-gpk2.cisco.com/jira/browse/INTAKE-1550)</p><p><strong>2026-07-02 James Kelsall:</strong> Intake committed with measurement and capacity validation pending. Execution is tracked through WBXPLTFM-702722 (LLM Proxy key onboarding) and WBXPLTFM-702723 (token consumption baseline and quota projection), with WBXPLTFM-699902 providing the related BYOK guidance. Completion of the metrics baseline, quota recommendation, and connectivity validation is required before production-scale rollout.</p></td><td><p class="p1">LLM Proxy Key application and platform intake submitted for ROOT, following up the feasibility of combine PRIME and ROOT for the same.  -Rob and Josh...<strong style="text-align: left;"><br /><br />2026-07-02 James Kelsall:</strong><span style="color:var(--ds-text,#172b4d);"><span> </span>Intake committed with measurement and capacity validation pending. Execution is tracked through WBXPLTFM-702722 (LLM Proxy key onboarding) and WBXPLTFM-702723 (token consumption baseline and quota projection), with WBXPLTFM-699902 providing the related BYOK guidance...</span><br /><br />Rob team to work on LLM Proxy Key application process, along w/ Gavin if any help is needed.<br /><a href="webexteams://im?space=79c28410-6f4a-11f1-beaa-93d76ab89087">webexteams://im?space=79c28410-6f4a-11f1-beaa-93d76ab89087</a> </p></td><td><p>N/A</p></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_SCRUM_DELIVERY, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_COMMITTED: 19.1 days</p></td><td><p>INTAKE_SCRUM_DELIVERY: 23.9 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000695648"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-695648&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-695648&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713639"><strong>WBXPLTFM-713639</strong></a><br>PRIME/ROOT EAP Enablement - EAP-hosted agents with governed LLM access for incident and RCA workflows<br><span class="meta">New · Unassigned</span></div></td></tr><tr><td><p>17</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816">WBXPLTFM-695816</a></p></td><td><p><strong>2026-07-03 James Kelsall:</strong> FY26Q4 Progress: Refined the intake into a reusable, human-approved ServiceNow knowledge lifecycle capability that works with service-specific operations agents. The KB and change-creation intakes remain separate but may reuse common ServiceNow integration, validation, security, approval, provenance, and telemetry components. Expected Business Outcome (FY26Q4): Improve operational knowledge reuse by reducing KB authoring effort and increasing standardized, human-approved ServiceNow knowledge ...</p><p><strong>2026-06-05 Kyle Casteel:</strong> ServiceNow MCP validation update - 2026-06-05 Confirmed: - Existing ServiceNow MCP/API access can read/search ServiceNow KB data. - A read-only metadata query against the `kb_knowledge` table succeeded. - The current MCP exposes KB read tools: `query_knowledge_articles`, `get_knowledge_article`, and `search_knowledge_articles`. Not yet confirmed: - KB create/update/publish or submit-for-review capability. - Current MCP implementation appears read-only for ServiceNow records; no ServiceNow dat...</p></td><td><p><span>Yan is going to PO review and add to the phase two of service now MCP scope.</span></p></td><td><br /></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 4.4 days</p></td><td><p>INTAKE_PO_REVIEW: 3.7 days</p></td><td><p>None</p></td><td><span class="none">None</span></td></tr><tr><td><p>18</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631">WBXPLTFM-693631</a></p></td><td><p><strong>2026-08-11 Simpson Chua:</strong> 337tb Physical Usable ( 675tb with 2:1 Efficiency) (this does not have any flash storage -- just spinning drives but more capacity than prev configuration/quotes ) Config # Webex - App logs - FAS50 w/ 1*DS460 - 60*10tb NL-SAS - 337tb Physical Usable ( 675tb with 2:1 Efficiency) - 40G Eth Ports , 36M - 24x7x4 Support Cisco Price - $181,758.14 ^^^^ Above is with one Shelf of 60*10tb Drives ^^^^^^^ If we add another shelf -- it will be 793tb Physical usable.</p><p><strong>2026-08-05 Simpson Chua:</strong> These are logs that are rotated out of the devices due to the sheer amount and needs to be offloaded to keep historical view for future troubleshooting/technical analysis. Tan is requesting storage ranges between 500 TB to 700 TB. We submitted a quote for Amazon S3 and a prior one for on-prem NetApp storage. We have to do a deeper dive to progress this. S3 - [https://cisco-my.sharepoint.com/:x:/p/lbogard/IQD390Bk6pVyQree3IOYWWxeATblXtSiTcj_-Qle98Wv7Cc?email=sichua%40cisco.com&amp;e=KQzDde][^NetAp...</p></td><td><p><span>Pending further discussion w/ cross-functional teams  -James &amp; Tan <br /><br /><a href="webexteams://im?space=d4d5be70-5484-11f1-9a82-fd58de7e568d">webexteams://im?space=d4d5be70-5484-11f1-9a82-fd58de7e568d</a><br /></span></p></td><td><br /></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_TUNING: 50.3 days</p></td><td><p>INTAKE_PO_REVIEW: 2.7 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000693631"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-693631&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-693631&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr><tr><td><p>19</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695943">WBXPLTFM-695943</a></p></td><td><p><strong>2026-08-05 Josue David Rodriguez:</strong> The intended user experience should include: # A searchable recent/historical calls table across multiple selected CUBEs. # Filters for time, calling/called number, Call-ID, CUBE, trunk, call state, SIP response and disconnect cause. # Correlation of all call legs across the participating CUBEs. Because CUBE is a B2BUA, correlation must not rely only on SIP Call-ID; it should combine CCAPI GUID/call IDs, SIP dialog identifiers, calling/called numbers, timestamps, SDP endpoints and topology in...</p><p><strong>2026-07-24 Josue David Rodriguez:</strong> Hi [~hancwang] , thank you! I’m happy to help with this initiative. This aligns well with my background. I look forward to collaborating with the team.</p></td><td><p class="p1">this would be a great benefit for both CDI and CCE, even more for CDI since they are using more CUBEs</p><p><span> </span></p></td><td><br /></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio</p></td><td><p>INTAKE_ARCH_REVIEW: 22.7 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p>None</p></td><td><div class="implemented"><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713636"><strong>WBXPLTFM-713636</strong></a><br>CUBE Multi-Device Debugger &amp; Call Analyzer — parallel debug/capture collection with AI SIP root-cause analysis<br><span class="meta">New · Unassigned</span></div></td></tr><tr><td><p>20</p></td><td><p><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358">WBXPLTFM-711358</a></p></td><td><p><strong>2026-08-12 Hancy Wang:</strong> [~tanng] Tan I've created the excel file for you to record/document the current manual processes of the DI impact detection and assessments: https://cisco.sharepoint.com/:x:/r/sites/SOPTServiceOps/Shared%20Documents/Efficiency/DI_Impact_Assessment_WBXPLTFM-711358.xlsx?d=w03a623ae35f2498ebcf32d65866a585a&amp;csf=1&amp;web=1&amp;e=xgXw8b Please modify it as needed and looking forward to get the updates late this week or early next week.</p><p><strong>2026-08-12 ServiceNow-Jira updater:</strong> Assigned To synced from Jira: -&gt; jkelsall</p></td><td><p class="p1">Tan/Russ team is working on gathering the details</p></td><td><br /></td><td><p><strong>Jira Status:</strong> New</p><p><strong>Current Labels:</strong> COGS-Efficiency, INTAKE_PO_REVIEW, REQ_SOPT_AIOE, SOPT_ServiceOps_Efficiency-Portfolio, servicenow_problemtask</p></td><td><p>INTAKE_ARCH_REVIEW: 6.9 days</p></td><td><p>INTAKE_PO_REVIEW: 1.2 days</p></td><td><p><ac:structured-macro ac:name="jira" ac:schema-version="1" ac:macro-id="a806196d-52b4-4f20-8a63-000000711358"><ac:parameter ac:name="server">JIRA Engineering - GPK2</ac:parameter><ac:parameter ac:name="columnIds">issuekey,status,assignee</ac:parameter><ac:parameter ac:name="columns">key,status,assignee</ac:parameter><ac:parameter ac:name="jqlQuery">issue in linkedIssues(&quot;WBXPLTFM-711358&quot;, &quot;is blocked by&quot;) OR issue in linkedIssues(&quot;WBXPLTFM-711358&quot;, &quot;depends on&quot;)</ac:parameter><ac:parameter ac:name="serverId">95dc5303-220d-32fb-9d7e-435e545fb403</ac:parameter></ac:structured-macro></p></td><td><span class="none">None</span></td></tr></tbody></table></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Efficiency Portofolio Status Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --ink: #16202a;
+      --muted: #5f6f82;
+      --line: #dce3ea;
+      --panel: #ffffff;
+      --navy: #17324d;
+      --teal: #087d8f;
+      --green: #2f7d4f;
+      --amber: #a76500;
+      --red: #b54242;
+      --violet: #6554a6;
+      --blue: #2868a8;
+      --shadow: 0 12px 32px rgba(22, 32, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 14px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible {
+      outline: 2px solid var(--teal);
+      outline-offset: 2px;
+      border-radius: 3px;
+    }
+
+    .shell { min-height: 100vh; }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-inner {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 28px 32px 24px;
+    }
+
+    .eyebrow {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 6px 0 10px;
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(280px, 0.8fr);
+      gap: 28px;
+      align-items: end;
+    }
+
+    .lede {
+      margin: 0;
+      max-width: 880px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .meta {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+      justify-items: end;
+    }
+
+    .meta strong { color: var(--ink); }
+
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 24px 32px 48px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(170px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .tile,
+    .panel,
+    .risk,
+    .theme {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .tile { padding: 18px; }
+
+    .tile .label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .tile .value {
+      margin-top: 8px;
+      font-size: 34px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .tile .note {
+      margin-top: 9px;
+      color: var(--muted);
+      min-height: 22px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(360px, 0.62fr);
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .panel { padding: 20px; }
+
+    .section-title {
+      display: flex;
+      gap: 12px;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .hint { color: var(--muted); font-size: 12px; }
+
+    .status-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .status-row {
+      display: grid;
+      grid-template-columns: 160px minmax(120px, 1fr) 34px;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .status-name { font-weight: 700; font-size: 13px; }
+
+    .bar {
+      height: 12px;
+      background: #edf1f5;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      border-radius: 999px;
+    }
+
+    .count { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+    .donut-wrap {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .donut {
+      width: 150px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        conic-gradient(
+          var(--amber) 0.0% 30.0%,
+          var(--teal) 30.0% 60.0%,
+          var(--blue) 60.0% 75.0%,
+          var(--green) 75.0% 90.0%,
+          var(--violet) 90.0% 95.0%,
+          var(--red) 95.0% 100.0%
+        );
+      position: relative;
+    }
+
+    .donut::after {
+      content: "20";
+      position: absolute;
+      inset: 34px;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      border-radius: 50%;
+      font-size: 30px;
+      font-weight: 800;
+      box-shadow: inset 0 0 0 1px var(--line);
+    }
+
+    .legend {
+      display: grid;
+      gap: 8px;
+      color: var(--muted);
+    }
+
+    .legend div {
+      display: flex;
+      gap: 9px;
+      align-items: center;
+    }
+
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      flex: 0 0 auto;
+    }
+
+    .risks {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .risk {
+      padding: 18px;
+      border-left: 5px solid var(--red);
+    }
+
+    .risk h3,
+    .theme h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    .risk p,
+    .theme p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #eef4f8;
+      color: var(--navy);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .theme { padding: 16px; }
+
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      flex: 1;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    input,
+    select {
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      padding: 0 10px;
+      font: inherit;
+    }
+
+    input {
+      flex: 1;
+      min-width: min(360px, 100%);
+    }
+
+    select {
+      flex: 0 0 190px;
+    }
+
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      min-width: 1120px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #f9fbfd;
+      color: #334355;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    td { font-size: 13px; }
+
+    tbody tr:hover { background: #fbfdff; }
+
+    .status {
+      display: inline-flex;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .status.capture { background: #fff4dd; color: #7a4b00; }
+    .status.po { background: #e5f4f7; color: #056273; }
+    .status.arch { background: #eaf0fb; color: #235586; }
+    .status.commit { background: #e8f5ec; color: #23643e; }
+    .status.ready { background: #efeafb; color: #544091; }
+    .status.tuning { background: #fdeceb; color: #913737; }
+
+    .jira {
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .blocker {
+      color: var(--red);
+      font-weight: 800;
+    }
+
+    .blocker-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .blocker-item {
+      display: grid;
+      gap: 2px;
+    }
+
+    .blocker-meta {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .empty { color: var(--muted); }
+
+    footer {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 980px) {
+      .header-inner,
+      main { padding-inline: 18px; }
+      .summary,
+      .grid,
+      .risks { grid-template-columns: 1fr; }
+      .meta { justify-items: start; }
+      .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .theme-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 620px) {
+      .kpis,
+      .theme-grid,
+      .donut-wrap { grid-template-columns: 1fr; }
+      .toolbar { align-items: stretch; flex-direction: column; }
+      .filters { flex-direction: column; }
+      input,
+      select { width: 100%; }
+      .status-row { grid-template-columns: 130px minmax(80px, 1fr) 30px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      header,
+      main { max-width: none; }
+      .tile,
+      .panel,
+      .risk,
+      .theme { box-shadow: none; }
+      .toolbar { display: none; }
+      table { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="header-inner">
+        <div class="eyebrow">Efficiency Program of DI ServiceOps</div>
+        <div class="summary">
+          <div>
+            <h1>Efficiency Portofolio Status Dashboard</h1>
+            <p class="lede">A professional dashboard view of the WBXPLTFM efficiency-program portfolio, generated from the Confluence tracker page version 41. It prioritizes health, blockers, and next actions over raw tracker detail.</p>
+          </div>
+          <div class="meta">
+            <div><strong>Source:</strong> Live Confluence tracker</div>
+            <div><strong>Generated:</strong> 2026-07-29 17:45 UTC</div>
+            <div><strong>Fresh Webex read:</strong> No</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="kpis" aria-label="Portfolio KPIs">
+        <div class="tile">
+          <div class="label">Tracked Issues</div>
+          <div class="value">20</div>
+          <div class="note">WBXPLTFM portfolio items</div>
+        </div>
+        <div class="tile">
+          <div class="label">Committed / Ready</div>
+          <div class="value">4</div>
+          <div class="note">Committed, scrum-ready, or delivery</div>
+        </div>
+        <div class="tile">
+          <div class="label">Needs Shaping</div>
+          <div class="value">13</div>
+          <div class="note">Captured, PO review, or tuning</div>
+        </div>
+        <div class="tile">
+          <div class="label">Blocked Items</div>
+          <div class="value">3</div>
+          <div class="note">Linked blockers or Jira Blocked status</div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <div class="section-title">
+            <h2>Status Distribution</h2>
+            <span class="hint">Count by current intake status</span>
+          </div>
+          <div class="status-list">
+            <div class="status-row"><div class="status-name">Captured</div><div class="bar"><span style="width:30.0%; background:var(--amber)"></span></div><div class="count">6</div></div>
+            <div class="status-row"><div class="status-name">PO Review</div><div class="bar"><span style="width:30.0%; background:var(--teal)"></span></div><div class="count">6</div></div>
+            <div class="status-row"><div class="status-name">Arch Review</div><div class="bar"><span style="width:15.0%; background:var(--blue)"></span></div><div class="count">3</div></div>
+            <div class="status-row"><div class="status-name">Committed</div><div class="bar"><span style="width:15.0%; background:var(--green)"></span></div><div class="count">3</div></div>
+            <div class="status-row"><div class="status-name">Scrum Ready</div><div class="bar"><span style="width:5.0%; background:var(--violet)"></span></div><div class="count">1</div></div>
+            <div class="status-row"><div class="status-name">Tuning</div><div class="bar"><span style="width:5.0%; background:var(--red)"></span></div><div class="count">1</div></div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="section-title">
+            <h2>Portfolio Mix</h2>
+            <span class="hint">20 active records</span>
+          </div>
+          <div class="donut-wrap">
+            <div class="donut" aria-label="Portfolio issue count"></div>
+            <div class="legend">
+              <div><span class="swatch" style="background:var(--amber)"></span>Captured: 6</div>
+              <div><span class="swatch" style="background:var(--teal)"></span>PO Review: 6</div>
+              <div><span class="swatch" style="background:var(--blue)"></span>Arch Review: 3</div>
+              <div><span class="swatch" style="background:var(--green)"></span>Committed: 3</div>
+              <div><span class="swatch" style="background:var(--violet)"></span>Scrum Ready: 1</div>
+              <div><span class="swatch" style="background:var(--red)"></span>Tuning: 1</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="risks" aria-label="Key blockers">
+        <article class="risk">
+          <h3>AI-driven MACD / service request fulfillment</h3>
+          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-697733" target="_blank" rel="noopener noreferrer">WBXPLTFM-697733</a></strong> has linked blocker Jira(s). Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p>
+          <div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707842" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707842 - In Progress - Tan Nguyen</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-710187" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-710187 - New - Amandeep Birdi</a></div>
+        </article>
+        <article class="risk">
+          <h3>WxCCE queue-management bot for ticket workflows, assignment, and escalation</h3>
+          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-671890" target="_blank" rel="noopener noreferrer">WBXPLTFM-671890</a></strong> has Jira status Blocked. Jira status: <strong>Blocked</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p>
+          <div class="chips"><span class="chip">Jira status: Blocked</span></div>
+        </article>
+        <article class="risk">
+          <h3>Automated impact detection for DI services</h3>
+          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358" target="_blank" rel="noopener noreferrer">WBXPLTFM-711358</a></strong> has linked blocker Jira(s). Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_CAPTURED</strong>.</p>
+          <div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707466" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707466 - In Progress - Tan Nguyen</a></div>
+        </article>
+      </section>
+
+      <section class="theme-grid" aria-label="Themes">
+        <article class="theme"><h3>Alerting</h3><p>PCC alert runbooks, planned-change suppression, and measurable noise reduction remain core opportunities.</p></article>
+        <article class="theme"><h3>Logs / SNOW</h3><p>Log collection, offloading, ServiceNow change creation, and KB creation form a connected automation lane.</p></article>
+        <article class="theme"><h3>ROOT / PRIME</h3><p>ROOT API access, PRIME development, and EAP enablement are bundled around incident and RCA workflows.</p></article>
+        <article class="theme"><h3>CCE Operations</h3><p>Function/failover testing, queue management, MACD fulfillment, and availability measurement need delivery shaping.</p></article>
+      </section>
+
+      <section class="panel">
+        <div class="section-title">
+          <h2>Portfolio Detail</h2>
+          <span class="hint" id="rowCount">20 rows</span>
+        </div>
+        <div class="toolbar">
+          <div class="filters">
+            <input id="search" type="search" placeholder="Search Jira, theme, status, blocker, or next step" aria-label="Search portfolio">
+            <select id="statusFilter" aria-label="Filter by status">
+              <option value="">All statuses</option>
+              <option value="INTAKE_CAPTURED">Captured</option>
+              <option value="INTAKE_PO_REVIEW">PO Review</option>
+              <option value="INTAKE_ARCH_REVIEW">Arch Review</option>
+              <option value="INTAKE_COMMITTED">Committed</option>
+              <option value="INTAKE_SCRUM_READY">Scrum Ready</option>
+              <option value="INTAKE_TUNING">Tuning</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Jira</th>
+                <th>Project / Epic Theme</th>
+                <th>Jira Status</th>
+                <th>Intake Label</th>
+                <th>Blockers</th>
+                <th>Current Tracker Next Step</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <footer>
+          Source file: outputs/aioe-intake-status-history/860877904-v41-dashboard-source.storage.html. This dashboard reflects Confluence tracker page version 41.
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const items = [
+          {
+                    "no": 1,
+                    "key": "WBXPLTFM-686251",
+                    "theme": "Automated impact detection for DI and CCE services",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [],
+                    "next": "Amandeep/CCE provided it's current logics, existing tool already covered core CCE components which fulfilled the short-term quick win already. Then next phase of bot support out of the boundary is pending on arch office review with MCP support in the boundary. Break up/ seperate DI to #20 JIRA Engineering - GPK2 95dc5303-220d-32fb-9d7e-435e545fb403 WBXPLTFM-711358 webexteams://im?space=6e834050-70ab-11f1-81dd-d987b889420b",
+                    "jiraStatus": "Ready",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE",
+                              "servicenow_problemtask"
+                    ]
+          },
+          {
+                    "no": 2,
+                    "key": "WBXPLTFM-695270",
+                    "theme": "AI-driven alert management for PCC",
+                    "status": "INTAKE_SCRUM_READY",
+                    "blockers": [],
+                    "next": "James: 7/1: I have created the 5 top talker alert stories for us to work through. The first of which Rajeesh on my team is going to take a look at and I may likely have him drive. Will be getting the other 4 assigned with ownership over the next 48 hours webexteams://im?space=dc14ff70-6f4b-11f1-a264-fb852ea271c5",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_SCRUM_READY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 3,
+                    "key": "WBXPLTFM-695660",
+                    "theme": "PRIME development from current state",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [],
+                    "next": "Request developer support to take over the PRIME current state, decouple w/ #16 of EAP enablement.",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 4,
+                    "key": "WBXPLTFM-695595",
+                    "theme": "AI Analyzer on DI jump servers",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [],
+                    "next": "Will focus on #4 and #7 for the week of 20-26. Schedule a syncup meeting w/ RaviTeja to understand the estimation of the detailed log sizes. -AI Hancy to set it up w/ James. Alternative way of quick win could be through #7, via the MCP in the boundary. Intake process to be started - James Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=e07b1890-70d3-11f1-876b-3544897cc7fc",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 5,
+                    "key": "WBXPLTFM-696159",
+                    "theme": "AI-powered planned-change alert suppression",
+                    "status": "INTAKE_ARCH_REVIEW",
+                    "blockers": [],
+                    "next": "phase 1: Provide training to the team (put the detailed CIs in the changes etc w/ human efforts) to leverage existing feature -James phase 2: further automated w/ AI webexteams://im?space=05b67310-70e9-11f1-99cf-4f21f14821c2",
+                    "jiraStatus": "In Progress",
+                    "labels": [
+                              "INTAKE_ARCH_REVIEW",
+                              "INTAKE_READY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 6,
+                    "key": "WBXPLTFM-695788",
+                    "theme": "Hardware/software compliance dashboard and CMDB alignment",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [],
+                    "next": "Refocused the CMDB project, further followup needed. -Rick PM this one. James to follow up w/ Monami (related to CMDB one) WBXPLTFM-702711 as part of PF WBXPLTFM-595329 webexteams://im?space=f9d018a0-7cb7-11f1-bddf-3dacb315a1dd",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 7,
+                    "key": "WBXPLTFM-695793",
+                    "theme": "AI-driven log collection and analysis via ServiceNow",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [],
+                    "next": "Connected Tan w/ RaviTeja / Joseph from Ognjen's team for the CUCM log collection via MCP, early engagement started and waiting on the beta testing. Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=d3be3900-70d5-11f1-8075-9faf3220290a",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 8,
+                    "key": "WBXPLTFM-695924",
+                    "theme": "PCI / Windows patching automation",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [],
+                    "next": "-Ayub to help follow it up, Jeven is working on the POC w/ Calvin and Ogjen team's feedback/support. webexteams://im?space=ac12fb80-70b6-11f1-a1bc-81c7dbdcdcad",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 9,
+                    "key": "WBXPLTFM-694534",
+                    "theme": "ServiceNow change creation bot",
+                    "status": "INTAKE_COMMITTED",
+                    "blockers": [],
+                    "next": "correlate w/ other similar asks for Snow -James (involve domain expert to join the skill development - ) webexteams://im?space=abe9b0a0-6f4d-11f1-91d5-e39f7332062b https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816 [AIOE Intake] ServiceNow KB Creation Bot - AI-assisted knowledge article generation, validation, and publishing workflow",
+                    "jiraStatus": "In Progress",
+                    "labels": [
+                              "INTAKE_COMMITTED",
+                              "INTAKE_SCRUM_DELIVERY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 10,
+                    "key": "WBXPLTFM-695559",
+                    "theme": "WxCCE UC health check",
+                    "status": "INTAKE_COMMITTED",
+                    "blockers": [],
+                    "next": "Further break down for the user cases. further review within AIOE, arch review, identify owners, followups etc -James",
+                    "jiraStatus": "In Progress",
+                    "labels": [
+                              "INTAKE_COMMITTED",
+                              "INTAKE_SCRUM_DELIVERY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 11,
+                    "key": "WBXPLTFM-695298",
+                    "theme": "Alert/event correlation and noise reduction",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [],
+                    "next": "make this measurable for DI/CCE in the KB (RAG way) for some examples - , (Monami/Amandeep) Certain feature in EMS for manual correlation, then add the rules to the list (group), to the runbooks webexteams://im?space=24720230-71a5-11f1-9802-19f343fdc66d , James to help facilitate",
+                    "jiraStatus": "In Progress",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 12,
+                    "key": "WBXPLTFM-695661",
+                    "theme": "ROOT autonomous bot API access",
+                    "status": "INTAKE_ARCH_REVIEW",
+                    "blockers": [],
+                    "next": "depend on 16, bundled together",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_ARCH_REVIEW",
+                              "INTAKE_READY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 13,
+                    "key": "WBXPLTFM-697733",
+                    "theme": "AI-driven MACD / service request fulfillment",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [
+                              {
+                                        "key": "WBXPLTFM-707842",
+                                        "status": "In Progress",
+                                        "assignee": "Tan Nguyen"
+                              },
+                              {
+                                        "key": "WBXPLTFM-710187",
+                                        "status": "New",
+                                        "assignee": "Amandeep Birdi"
+                              }
+                    ],
+                    "next": "Created Jiras to track DI and CCE cases. gathering the list of MACD (moves /add changes / deletions) items, the implementation process/documentation for each, access requirements, inputs and outputs (pick typical 2-3 to see, like FW related)",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 14,
+                    "key": "WBXPLTFM-695872",
+                    "theme": "WxCCE function and failover testing automation",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [],
+                    "next": "Operation tooling automation team to continue? -James to check w/ Oggie / Calvin...",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 15,
+                    "key": "WBXPLTFM-671890",
+                    "theme": "WxCCE queue-management bot for ticket workflows, assignment, and escalation",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [],
+                    "next": "It will be implemented in EAP, tools will be done by Ognjen's team and SOs for skills; James (6/18): Needs a follow up discussion on overlap with AWA and possible AI integrations with AWA to address gaps",
+                    "jiraStatus": "Blocked",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 16,
+                    "key": "WBXPLTFM-695648",
+                    "theme": "PRIME / ROOT EAP enablement for incident and RCA workflows",
+                    "status": "INTAKE_COMMITTED",
+                    "blockers": [],
+                    "next": "LLM Proxy Key application and platform intake submitted for ROOT, following up the feasibility of combine PRIME and ROOT for the same. -Rob and Josh... 2026-07-02 James Kelsall: Intake committed with measurement and capacity validation pending. Execution is tracked through WBXPLTFM-702722 (LLM Proxy key onboarding) and WBXPLTFM-702723 (token consumption baseline and quota projection), with WBXPLTFM-699902 providing the related BYOK guidance... Rob team to work on LLM Proxy Key application process, along w/ Gavin if any help is needed. webexteams://im?space=79c28410-6f4a-11f1-beaa-93d76ab89087",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_COMMITTED",
+                              "INTAKE_SCRUM_DELIVERY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 17,
+                    "key": "WBXPLTFM-695816",
+                    "theme": "ServiceNow KB creation bot",
+                    "status": "INTAKE_PO_REVIEW",
+                    "blockers": [],
+                    "next": "Yan is going to PO review and add to the phase two of service now MCP scope.",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_PO_REVIEW",
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 18,
+                    "key": "WBXPLTFM-693631",
+                    "theme": "Log offloading to centralized storage",
+                    "status": "INTAKE_TUNING",
+                    "blockers": [],
+                    "next": "Pending further discussion w/ cross-functional teams -James & Tan webexteams://im?space=d4d5be70-5484-11f1-9a82-fd58de7e568d",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_TUNING",
+                              "REQ_SOPT_OPTL"
+                    ]
+          },
+          {
+                    "no": 19,
+                    "key": "WBXPLTFM-695943",
+                    "theme": "CUBE-related automation opportunity for CDI and CCE",
+                    "status": "INTAKE_ARCH_REVIEW",
+                    "blockers": [],
+                    "next": "this would be a great benefit for both CDI and CCE, even more for CDI since they are using more CUBEs",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_ARCH_REVIEW",
+                              "INTAKE_READY",
+                              "REQ_SOPT_AIOE"
+                    ]
+          },
+          {
+                    "no": 20,
+                    "key": "WBXPLTFM-711358",
+                    "theme": "Automated impact detection for DI services",
+                    "status": "INTAKE_CAPTURED",
+                    "blockers": [
+                              {
+                                        "key": "WBXPLTFM-707466",
+                                        "status": "In Progress",
+                                        "assignee": "Tan Nguyen"
+                              }
+                    ],
+                    "next": "Tan/Russ team is working on gathering the details",
+                    "jiraStatus": "New",
+                    "labels": [
+                              "INTAKE_CAPTURED",
+                              "INTAKE_PO_REVIEW",
+                              "REQ_SOPT_AIOE",
+                              "servicenow_problemtask"
+                    ]
+          }
+];
+
+    const statusClass = {
+      "INTAKE_PO_REVIEW": "po",
+      "INTAKE_CAPTURED": "capture",
+      "INTAKE_ARCH_REVIEW": "arch",
+      "INTAKE_COMMITTED": "commit",
+      "INTAKE_SCRUM_READY": "ready",
+      "INTAKE_TUNING": "tuning",
+      "INTAKE_READY": "arch",
+      "INTAKE_SCRUM_DELIVERY": "commit"
+};
+
+    const rows = document.getElementById("rows");
+    const search = document.getElementById("search");
+    const statusFilter = document.getElementById("statusFilter");
+    const rowCount = document.getElementById("rowCount");
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function jiraHref(key) {
+      return `https://jira-eng-gpk2.cisco.com/jira/browse/${encodeURIComponent(key)}`;
+    }
+
+    function jiraAnchor(key, className = "") {
+      const safeKey = escapeHtml(key);
+      const safeClass = className ? ` class="${escapeHtml(className)}"` : "";
+      return `<a${safeClass} href="${jiraHref(key)}" target="_blank" rel="noopener noreferrer">${safeKey}</a>`;
+    }
+
+    function blockerKey(blocker) {
+      return typeof blocker === "string" ? blocker : blocker.key;
+    }
+
+    function blockerStatus(blocker) {
+      return typeof blocker === "string" ? "Unknown" : blocker.status || "Unknown";
+    }
+
+    function blockerAssignee(blocker) {
+      return typeof blocker === "string" ? "Unknown assignee" : blocker.assignee || "Unassigned";
+    }
+
+    function linkInlineRefs(text) {
+      return escapeHtml(text)
+        .replace(/webexteams:\/\/[^\s<>"']+/g, (url) => `<a href="${url}">${url}</a>`)
+        .replace(/WBXPLTFM-\d+/g, (key) => jiraAnchor(key));
+    }
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      const status = statusFilter.value;
+      const filtered = items.filter((item) => {
+        const blockerSearch = item.blockers.map((blocker) => [blockerKey(blocker), blockerStatus(blocker), blockerAssignee(blocker)].join(" ")).join(" ");
+        const haystack = [item.key, item.theme, item.jiraStatus, item.status, (item.labels || []).join(" "), blockerSearch, item.next].join(" ").toLowerCase();
+        return (!status || item.status === status) && (!query || haystack.includes(query));
+      });
+
+      rows.innerHTML = filtered.map((item) => {
+        const blockers = item.blockers.length
+          ? `<div class="blocker-list">${item.blockers.map((blocker) => `
+              <div class="blocker-item">
+                ${jiraAnchor(blockerKey(blocker), "blocker")}
+                <div class="blocker-meta">${escapeHtml(blockerStatus(blocker))} - ${escapeHtml(blockerAssignee(blocker))}</div>
+              </div>
+            `).join("")}</div>`
+          : `<span class="empty">None</span>`;
+        return `
+          <tr>
+            <td>${item.no}</td>
+            <td class="jira">${jiraAnchor(item.key)}</td>
+            <td>${escapeHtml(item.theme)}</td>
+            <td>${escapeHtml(item.jiraStatus || "Unknown")}</td>
+            <td><span class="status ${statusClass[item.status] || ""}">${escapeHtml(item.status)}</span></td>
+            <td>${blockers}</td>
+            <td>${linkInlineRefs(item.next)}</td>
+          </tr>
+        `;
+      }).join("");
+
+      rowCount.textContent = `${filtered.length} of ${items.length} rows`;
+    }
+
+    search.addEventListener("input", render);
+    statusFilter.addEventListener("change", render);
+    render();
+  </script>
+</body>
+</html>
