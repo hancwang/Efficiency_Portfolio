@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Efficiency Portofolio Status Dashboard</title>
+  <title>Efficiency Project Portfolio Status Dashboard</title>
   <style>
     :root {
       color-scheme: light;
@@ -458,16 +458,16 @@
   <div class="shell">
     <header>
       <div class="header-inner">
-        <div class="eyebrow">Efficiency Program of DI ServiceOps</div>
+        <div class="eyebrow">Efficiency Project Portfolio of DI ServiceOps</div>
         <div class="summary">
           <div>
-            <h1>Efficiency Portofolio Status Dashboard</h1>
-            <p class="lede">A professional dashboard view of the WBXPLTFM efficiency-program portfolio, generated from the Confluence tracker page version 41. It prioritizes health, blockers, and next actions over raw tracker detail.</p>
+            <h1>Efficiency Project Portfolio Status Dashboard</h1>
+            <p class="lede">A professional dashboard view of the WBXPLTFM efficiency-project portfolio, generated from the Confluence tracker page version 51. It prioritizes health, blockers, and next actions over raw tracker detail.</p>
           </div>
           <div class="meta">
             <div><strong>Source:</strong> Live Confluence tracker</div>
-            <div><strong>Generated:</strong> 2026-07-29 17:45 UTC</div>
-            <div><strong>Fresh Webex read:</strong> No</div>
+            <div><strong>Generated:</strong> 2026-08-14 21:32 UTC</div>
+            <div><strong>Live Jira refresh:</strong> Yes</div>
           </div>
         </div>
       </div>
@@ -482,17 +482,17 @@
         </div>
         <div class="tile">
           <div class="label">Committed / Ready</div>
-          <div class="value">4</div>
+          <div class="value">3</div>
           <div class="note">Committed, scrum-ready, or delivery</div>
         </div>
         <div class="tile">
           <div class="label">Needs Shaping</div>
-          <div class="value">13</div>
+          <div class="value">14</div>
           <div class="note">Captured, PO review, or tuning</div>
         </div>
         <div class="tile">
           <div class="label">Blocked Items</div>
-          <div class="value">3</div>
+          <div class="value">8</div>
           <div class="note">Linked blockers or Jira Blocked status</div>
         </div>
       </section>
@@ -504,12 +504,11 @@
             <span class="hint">Count by current intake status</span>
           </div>
           <div class="status-list">
-            <div class="status-row"><div class="status-name">Captured</div><div class="bar"><span style="width:30.0%; background:var(--amber)"></span></div><div class="count">6</div></div>
-            <div class="status-row"><div class="status-name">PO Review</div><div class="bar"><span style="width:30.0%; background:var(--teal)"></span></div><div class="count">6</div></div>
-            <div class="status-row"><div class="status-name">Arch Review</div><div class="bar"><span style="width:15.0%; background:var(--blue)"></span></div><div class="count">3</div></div>
-            <div class="status-row"><div class="status-name">Committed</div><div class="bar"><span style="width:15.0%; background:var(--green)"></span></div><div class="count">3</div></div>
-            <div class="status-row"><div class="status-name">Scrum Ready</div><div class="bar"><span style="width:5.0%; background:var(--violet)"></span></div><div class="count">1</div></div>
-            <div class="status-row"><div class="status-name">Tuning</div><div class="bar"><span style="width:5.0%; background:var(--red)"></span></div><div class="count">1</div></div>
+            <div class="status-row"><div class="status-name">Arch Review</div><div class="bar"><span style="width:10.0%; background:var(--teal)"></span></div><div class="count">2</div></div>
+            <div class="status-row"><div class="status-name">External Blocked</div><div class="bar"><span style="width:10.0%; background:var(--blue)"></span></div><div class="count">2</div></div>
+            <div class="status-row"><div class="status-name">Po Review</div><div class="bar"><span style="width:60.0%; background:var(--green)"></span></div><div class="count">12</div></div>
+            <div class="status-row"><div class="status-name">Rejected</div><div class="bar"><span style="width:5.0%; background:var(--amber)"></span></div><div class="count">1</div></div>
+            <div class="status-row"><div class="status-name">Scrum Delivery</div><div class="bar"><span style="width:15.0%; background:var(--violet)"></span></div><div class="count">3</div></div>
           </div>
         </div>
         <div class="panel">
@@ -520,33 +519,25 @@
           <div class="donut-wrap">
             <div class="donut" aria-label="Portfolio issue count"></div>
             <div class="legend">
-              <div><span class="swatch" style="background:var(--amber)"></span>Captured: 6</div>
-              <div><span class="swatch" style="background:var(--teal)"></span>PO Review: 6</div>
-              <div><span class="swatch" style="background:var(--blue)"></span>Arch Review: 3</div>
-              <div><span class="swatch" style="background:var(--green)"></span>Committed: 3</div>
-              <div><span class="swatch" style="background:var(--violet)"></span>Scrum Ready: 1</div>
-              <div><span class="swatch" style="background:var(--red)"></span>Tuning: 1</div>
+              <div><span class="swatch" style="background:var(--teal)"></span>Arch Review: 2</div>
+              <div><span class="swatch" style="background:var(--blue)"></span>External Blocked: 2</div>
+              <div><span class="swatch" style="background:var(--green)"></span>Po Review: 12</div>
+              <div><span class="swatch" style="background:var(--amber)"></span>Rejected: 1</div>
+              <div><span class="swatch" style="background:var(--violet)"></span>Scrum Delivery: 3</div>
             </div>
           </div>
         </div>
       </section>
 
       <section class="risks" aria-label="Key blockers">
-        <article class="risk">
-          <h3>AI-driven MACD / service request fulfillment</h3>
-          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-697733" target="_blank" rel="noopener noreferrer">WBXPLTFM-697733</a></strong> has linked blocker Jira(s). Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p>
-          <div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707842" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707842 - In Progress - Tan Nguyen</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-710187" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-710187 - New - Amandeep Birdi</a></div>
-        </article>
-        <article class="risk">
-          <h3>WxCCE queue-management bot for ticket workflows, assignment, and escalation</h3>
-          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-671890" target="_blank" rel="noopener noreferrer">WBXPLTFM-671890</a></strong> has Jira status Blocked. Jira status: <strong>Blocked</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p>
-          <div class="chips"><span class="chip">Jira status: Blocked</span></div>
-        </article>
-        <article class="risk">
-          <h3>Automated impact detection for DI services</h3>
-          <p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358" target="_blank" rel="noopener noreferrer">WBXPLTFM-711358</a></strong> has linked blocker Jira(s). Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_CAPTURED</strong>.</p>
-          <div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707466" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707466 - In Progress - Tan Nguyen</a></div>
-        </article>
+        <article class="risk"><h3>Automated impact detection for DI and CCE services</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-686251" target="_blank" rel="noopener noreferrer">WBXPLTFM-686251</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>Ready</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711736" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-711736 - In Progress - Ognjen Josipovic</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713334" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-713334 - Capture - Simpson Chua</a></div></article>
+        <article class="risk"><h3>AI Analyzer on DI jump servers</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695595" target="_blank" rel="noopener noreferrer">WBXPLTFM-695595</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-693631 - New - Unassigned</a></div></article>
+        <article class="risk"><h3>Hardware/software compliance dashboard and CMDB alignment</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695788" target="_blank" rel="noopener noreferrer">WBXPLTFM-695788</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>Backlog</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-702711" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-702711 - New - Rick Melton</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-595329" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-595329 - Backlog - James Kelsall</a></div></article>
+        <article class="risk"><h3>Alert/event correlation and noise reduction</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695298" target="_blank" rel="noopener noreferrer">WBXPLTFM-695298</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>In Progress</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711736" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-711736 - In Progress - Ognjen Josipovic</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713334" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-713334 - Capture - Simpson Chua</a></div></article>
+        <article class="risk"><h3>AI-driven MACD / service request fulfillment</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-697733" target="_blank" rel="noopener noreferrer">WBXPLTFM-697733</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_ARCH_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-710187" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-710187 - New - Amandeep Birdi</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707842" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707842 - In Progress - Tan Nguyen</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-722894" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-722894 - In Progress - James Kelsall</a></div></article>
+        <article class="risk"><h3>WxCCE queue-management bot for ticket workflows, assignment, and escalation</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-671890" target="_blank" rel="noopener noreferrer">WBXPLTFM-671890</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>Blocked</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><span class="chip">Jira status: Blocked</span></div></article>
+        <article class="risk"><h3>PRIME / ROOT EAP enablement for incident and RCA workflows</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695648" target="_blank" rel="noopener noreferrer">WBXPLTFM-695648</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_SCRUM_DELIVERY</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-702722" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-702722 - Done - Josh Godwin</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707652" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707652 - Done - Josh Godwin</a></div></article>
+        <article class="risk"><h3>Automated impact detection for DI services</h3><p><strong><a href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711358" target="_blank" rel="noopener noreferrer">WBXPLTFM-711358</a></strong> is currently blocked or dependent on linked work. Jira status: <strong>New</strong>. Current intake label: <strong>INTAKE_PO_REVIEW</strong>.</p><div class="chips"><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-707466" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-707466 - Done - Tan Nguyen</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-711736" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-711736 - In Progress - Ognjen Josipovic</a><a class="chip" href="https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-713334" target="_blank" rel="noopener noreferrer">Blocked by WBXPLTFM-713334 - Capture - Simpson Chua</a></div></article>
       </section>
 
       <section class="theme-grid" aria-label="Themes">
@@ -564,15 +555,7 @@
         <div class="toolbar">
           <div class="filters">
             <input id="search" type="search" placeholder="Search Jira, theme, status, blocker, or next step" aria-label="Search portfolio">
-            <select id="statusFilter" aria-label="Filter by status">
-              <option value="">All statuses</option>
-              <option value="INTAKE_CAPTURED">Captured</option>
-              <option value="INTAKE_PO_REVIEW">PO Review</option>
-              <option value="INTAKE_ARCH_REVIEW">Arch Review</option>
-              <option value="INTAKE_COMMITTED">Committed</option>
-              <option value="INTAKE_SCRUM_READY">Scrum Ready</option>
-              <option value="INTAKE_TUNING">Tuning</option>
-            </select>
+            <select id="statusFilter" aria-label="Filter by status"><option value="">All statuses</option><option value="INTAKE_ARCH_REVIEW">Arch Review</option><option value="INTAKE_EXTERNAL_BLOCKED">External Blocked</option><option value="INTAKE_PO_REVIEW">Po Review</option><option value="INTAKE_REJECTED">Rejected</option><option value="INTAKE_SCRUM_DELIVERY">Scrum Delivery</option></select>
           </div>
         </div>
         <div class="table-wrap">
@@ -586,13 +569,14 @@
                 <th>Intake Label</th>
                 <th>Blockers</th>
                 <th>Current Tracker Next Step</th>
+                <th>Implemented By</th>
               </tr>
             </thead>
             <tbody id="rows"></tbody>
           </table>
         </div>
         <footer>
-          Source file: outputs/aioe-intake-status-history/860877904-v41-dashboard-source.storage.html. This dashboard reflects Confluence tracker page version 41.
+          Source: live Confluence page 860877904, version 51, and live Jira issue/link queries refreshed 2026-08-14T21:32:11.513Z.
         </footer>
       </section>
     </main>
@@ -600,305 +584,498 @@
 
   <script>
     const items = [
-          {
-                    "no": 1,
-                    "key": "WBXPLTFM-686251",
-                    "theme": "Automated impact detection for DI and CCE services",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [],
-                    "next": "Amandeep/CCE provided it's current logics, existing tool already covered core CCE components which fulfilled the short-term quick win already. Then next phase of bot support out of the boundary is pending on arch office review with MCP support in the boundary. Break up/ seperate DI to #20 JIRA Engineering - GPK2 95dc5303-220d-32fb-9d7e-435e545fb403 WBXPLTFM-711358 webexteams://im?space=6e834050-70ab-11f1-81dd-d987b889420b",
-                    "jiraStatus": "Ready",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE",
-                              "servicenow_problemtask"
-                    ]
-          },
-          {
-                    "no": 2,
-                    "key": "WBXPLTFM-695270",
-                    "theme": "AI-driven alert management for PCC",
-                    "status": "INTAKE_SCRUM_READY",
-                    "blockers": [],
-                    "next": "James: 7/1: I have created the 5 top talker alert stories for us to work through. The first of which Rajeesh on my team is going to take a look at and I may likely have him drive. Will be getting the other 4 assigned with ownership over the next 48 hours webexteams://im?space=dc14ff70-6f4b-11f1-a264-fb852ea271c5",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_SCRUM_READY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 3,
-                    "key": "WBXPLTFM-695660",
-                    "theme": "PRIME development from current state",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [],
-                    "next": "Request developer support to take over the PRIME current state, decouple w/ #16 of EAP enablement.",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 4,
-                    "key": "WBXPLTFM-695595",
-                    "theme": "AI Analyzer on DI jump servers",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [],
-                    "next": "Will focus on #4 and #7 for the week of 20-26. Schedule a syncup meeting w/ RaviTeja to understand the estimation of the detailed log sizes. -AI Hancy to set it up w/ James. Alternative way of quick win could be through #7, via the MCP in the boundary. Intake process to be started - James Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=e07b1890-70d3-11f1-876b-3544897cc7fc",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 5,
-                    "key": "WBXPLTFM-696159",
-                    "theme": "AI-powered planned-change alert suppression",
-                    "status": "INTAKE_ARCH_REVIEW",
-                    "blockers": [],
-                    "next": "phase 1: Provide training to the team (put the detailed CIs in the changes etc w/ human efforts) to leverage existing feature -James phase 2: further automated w/ AI webexteams://im?space=05b67310-70e9-11f1-99cf-4f21f14821c2",
-                    "jiraStatus": "In Progress",
-                    "labels": [
-                              "INTAKE_ARCH_REVIEW",
-                              "INTAKE_READY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 6,
-                    "key": "WBXPLTFM-695788",
-                    "theme": "Hardware/software compliance dashboard and CMDB alignment",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [],
-                    "next": "Refocused the CMDB project, further followup needed. -Rick PM this one. James to follow up w/ Monami (related to CMDB one) WBXPLTFM-702711 as part of PF WBXPLTFM-595329 webexteams://im?space=f9d018a0-7cb7-11f1-bddf-3dacb315a1dd",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 7,
-                    "key": "WBXPLTFM-695793",
-                    "theme": "AI-driven log collection and analysis via ServiceNow",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [],
-                    "next": "Connected Tan w/ RaviTeja / Joseph from Ognjen's team for the CUCM log collection via MCP, early engagement started and waiting on the beta testing. Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=d3be3900-70d5-11f1-8075-9faf3220290a",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 8,
-                    "key": "WBXPLTFM-695924",
-                    "theme": "PCI / Windows patching automation",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [],
-                    "next": "-Ayub to help follow it up, Jeven is working on the POC w/ Calvin and Ogjen team's feedback/support. webexteams://im?space=ac12fb80-70b6-11f1-a1bc-81c7dbdcdcad",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 9,
-                    "key": "WBXPLTFM-694534",
-                    "theme": "ServiceNow change creation bot",
-                    "status": "INTAKE_COMMITTED",
-                    "blockers": [],
-                    "next": "correlate w/ other similar asks for Snow -James (involve domain expert to join the skill development - ) webexteams://im?space=abe9b0a0-6f4d-11f1-91d5-e39f7332062b https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816 [AIOE Intake] ServiceNow KB Creation Bot - AI-assisted knowledge article generation, validation, and publishing workflow",
-                    "jiraStatus": "In Progress",
-                    "labels": [
-                              "INTAKE_COMMITTED",
-                              "INTAKE_SCRUM_DELIVERY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 10,
-                    "key": "WBXPLTFM-695559",
-                    "theme": "WxCCE UC health check",
-                    "status": "INTAKE_COMMITTED",
-                    "blockers": [],
-                    "next": "Further break down for the user cases. further review within AIOE, arch review, identify owners, followups etc -James",
-                    "jiraStatus": "In Progress",
-                    "labels": [
-                              "INTAKE_COMMITTED",
-                              "INTAKE_SCRUM_DELIVERY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 11,
-                    "key": "WBXPLTFM-695298",
-                    "theme": "Alert/event correlation and noise reduction",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [],
-                    "next": "make this measurable for DI/CCE in the KB (RAG way) for some examples - , (Monami/Amandeep) Certain feature in EMS for manual correlation, then add the rules to the list (group), to the runbooks webexteams://im?space=24720230-71a5-11f1-9802-19f343fdc66d , James to help facilitate",
-                    "jiraStatus": "In Progress",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 12,
-                    "key": "WBXPLTFM-695661",
-                    "theme": "ROOT autonomous bot API access",
-                    "status": "INTAKE_ARCH_REVIEW",
-                    "blockers": [],
-                    "next": "depend on 16, bundled together",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_ARCH_REVIEW",
-                              "INTAKE_READY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 13,
-                    "key": "WBXPLTFM-697733",
-                    "theme": "AI-driven MACD / service request fulfillment",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [
-                              {
-                                        "key": "WBXPLTFM-707842",
-                                        "status": "In Progress",
-                                        "assignee": "Tan Nguyen"
-                              },
-                              {
-                                        "key": "WBXPLTFM-710187",
-                                        "status": "New",
-                                        "assignee": "Amandeep Birdi"
-                              }
-                    ],
-                    "next": "Created Jiras to track DI and CCE cases. gathering the list of MACD (moves /add changes / deletions) items, the implementation process/documentation for each, access requirements, inputs and outputs (pick typical 2-3 to see, like FW related)",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 14,
-                    "key": "WBXPLTFM-695872",
-                    "theme": "WxCCE function and failover testing automation",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [],
-                    "next": "Operation tooling automation team to continue? -James to check w/ Oggie / Calvin...",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 15,
-                    "key": "WBXPLTFM-671890",
-                    "theme": "WxCCE queue-management bot for ticket workflows, assignment, and escalation",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [],
-                    "next": "It will be implemented in EAP, tools will be done by Ognjen's team and SOs for skills; James (6/18): Needs a follow up discussion on overlap with AWA and possible AI integrations with AWA to address gaps",
-                    "jiraStatus": "Blocked",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 16,
-                    "key": "WBXPLTFM-695648",
-                    "theme": "PRIME / ROOT EAP enablement for incident and RCA workflows",
-                    "status": "INTAKE_COMMITTED",
-                    "blockers": [],
-                    "next": "LLM Proxy Key application and platform intake submitted for ROOT, following up the feasibility of combine PRIME and ROOT for the same. -Rob and Josh... 2026-07-02 James Kelsall: Intake committed with measurement and capacity validation pending. Execution is tracked through WBXPLTFM-702722 (LLM Proxy key onboarding) and WBXPLTFM-702723 (token consumption baseline and quota projection), with WBXPLTFM-699902 providing the related BYOK guidance... Rob team to work on LLM Proxy Key application process, along w/ Gavin if any help is needed. webexteams://im?space=79c28410-6f4a-11f1-beaa-93d76ab89087",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_COMMITTED",
-                              "INTAKE_SCRUM_DELIVERY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 17,
-                    "key": "WBXPLTFM-695816",
-                    "theme": "ServiceNow KB creation bot",
-                    "status": "INTAKE_PO_REVIEW",
-                    "blockers": [],
-                    "next": "Yan is going to PO review and add to the phase two of service now MCP scope.",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_PO_REVIEW",
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 18,
-                    "key": "WBXPLTFM-693631",
-                    "theme": "Log offloading to centralized storage",
-                    "status": "INTAKE_TUNING",
-                    "blockers": [],
-                    "next": "Pending further discussion w/ cross-functional teams -James & Tan webexteams://im?space=d4d5be70-5484-11f1-9a82-fd58de7e568d",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_TUNING",
-                              "REQ_SOPT_OPTL"
-                    ]
-          },
-          {
-                    "no": 19,
-                    "key": "WBXPLTFM-695943",
-                    "theme": "CUBE-related automation opportunity for CDI and CCE",
-                    "status": "INTAKE_ARCH_REVIEW",
-                    "blockers": [],
-                    "next": "this would be a great benefit for both CDI and CCE, even more for CDI since they are using more CUBEs",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_ARCH_REVIEW",
-                              "INTAKE_READY",
-                              "REQ_SOPT_AIOE"
-                    ]
-          },
-          {
-                    "no": 20,
-                    "key": "WBXPLTFM-711358",
-                    "theme": "Automated impact detection for DI services",
-                    "status": "INTAKE_CAPTURED",
-                    "blockers": [
-                              {
-                                        "key": "WBXPLTFM-707466",
-                                        "status": "In Progress",
-                                        "assignee": "Tan Nguyen"
-                              }
-                    ],
-                    "next": "Tan/Russ team is working on gathering the details",
-                    "jiraStatus": "New",
-                    "labels": [
-                              "INTAKE_CAPTURED",
-                              "INTAKE_PO_REVIEW",
-                              "REQ_SOPT_AIOE",
-                              "servicenow_problemtask"
-                    ]
-          }
+  {
+    "no": 1,
+    "key": "WBXPLTFM-686251",
+    "theme": "Automated impact detection for DI and CCE services",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-711736",
+        "summary": "FY27Q1 - MCP  Designing Framework",
+        "status": "In Progress",
+        "assignee": "Ognjen Josipovic"
+      },
+      {
+        "key": "WBXPLTFM-713334",
+        "summary": "FY27Q1 - Observability Studio",
+        "status": "Capture",
+        "assignee": "Simpson Chua"
+      }
+    ],
+    "implementations": [],
+    "next": "Amandeep/CCE provided it's current logics, existing tool already covered core CCE components which fulfilled the short-term quick win already. Then next phase of bot support out of the boundary is pending on arch office review with MCP support in the boundary. Break up/ seperate DI to #20 WBXPLTFM-711358 webexteams://im?space=6e834050-70ab-11f1-81dd-d987b889420b",
+    "jiraStatus": "Ready",
+    "labels": [
+      "COGS-Efficiency",
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "fy27-portfolio",
+      "servicenow_problemtask"
+    ]
+  },
+  {
+    "no": 2,
+    "key": "WBXPLTFM-695270",
+    "theme": "AI-driven alert management for PCC",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-708795",
+        "summary": "[Delivery][AIOE Intake] AI-Driven Alert Management for PCC",
+        "status": "New",
+        "assignee": "Rajeesh Rayaroth Mamangalavan"
+      },
+      {
+        "key": "WBXPLTFM-715372",
+        "summary": "[Delivery]PCC agent 2.0 for AI-Driven Alert triage and auto grouping ",
+        "status": "New",
+        "assignee": "Jimmy Zhou"
+      }
+    ],
+    "next": "James: 7/1: I have created the 5 top talker alert stories for us to work through. The first of which Rajeesh on my team is going to take a look at and I may likely have him drive. Will be getting the other 4 assigned with ownership over the next 48 hours webexteams://im?space=dc14ff70-6f4b-11f1-a264-fb852ea271c5",
+    "jiraStatus": "New",
+    "labels": [
+      "COGS-Efficiency",
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "fy27-portfolio"
+    ]
+  },
+  {
+    "no": 3,
+    "key": "WBXPLTFM-695660",
+    "theme": "PRIME development from current state",
+    "status": "INTAKE_EXTERNAL_BLOCKED",
+    "blockers": [],
+    "implementations": [],
+    "next": "Request developer support to take over the PRIME current state, decouple w/ #16 of EAP enablement.",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_EXTERNAL_BLOCKED",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 4,
+    "key": "WBXPLTFM-695595",
+    "theme": "AI Analyzer on DI jump servers",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-693631",
+        "summary": "[AIOE Intake] Log Offloading for the DI VOS + Cubes",
+        "status": "New",
+        "assignee": "Unassigned"
+      }
+    ],
+    "implementations": [],
+    "next": "Will focus on #4 and #7 for the week of 20-26. Schedule a syncup meeting w/ RaviTeja to understand the estimation of the detailed log sizes. -AI Hancy to set it up w/ James. Alternative way of quick win could be through #7, via the MCP in the boundary. Intake process to be started - James Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=e07b1890-70d3-11f1-876b-3544897cc7fc",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 5,
+    "key": "WBXPLTFM-696159",
+    "theme": "AI-powered planned-change alert suppression",
+    "status": "INTAKE_ARCH_REVIEW",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-713638",
+        "summary": " AI-Powered Planned Change Alert Suppression",
+        "status": "New",
+        "assignee": "Unassigned"
+      }
+    ],
+    "next": "phase 1: Provide training to the team (put the detailed CIs in the changes etc w/ human efforts) to leverage existing feature -James phase 2: further automated w/ AI webexteams://im?space=05b67310-70e9-11f1-99cf-4f21f14821c2",
+    "jiraStatus": "In Progress",
+    "labels": [
+      "INTAKE_ARCH_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 6,
+    "key": "WBXPLTFM-695788",
+    "theme": "Hardware/software compliance dashboard and CMDB alignment",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-702711",
+        "summary": "Define DI/CCE Infrastructure CMDB CI Model and Lifecycle Controls",
+        "status": "New",
+        "assignee": "Rick Melton"
+      },
+      {
+        "key": "WBXPLTFM-595329",
+        "summary": "DI/CCE Inventory onboard CMDB",
+        "status": "Backlog",
+        "assignee": "James Kelsall"
+      }
+    ],
+    "implementations": [],
+    "next": "Refocused the CMDB project, further followup needed. -Rick PM this one. James to follow up w/ Monami (related to CMDB one) WBXPLTFM-702711 as part of PF WBXPLTFM-595329 webexteams://im?space=f9d018a0-7cb7-11f1-bddf-3dacb315a1dd",
+    "jiraStatus": "Backlog",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "fy27-portfolio"
+    ]
+  },
+  {
+    "no": 7,
+    "key": "WBXPLTFM-695793",
+    "theme": "AI-driven log collection and analysis via ServiceNow",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-700080",
+        "summary": "[Delivery] AI-Driven Log Collection & Analysis via ServiceNow Ticket Integration",
+        "status": "Will Not Implement",
+        "assignee": "Jeven Zhou"
+      }
+    ],
+    "next": "Connected Tan w/ RaviTeja / Joseph from Ognjen's team for the CUCM log collection via MCP, early engagement started and waiting on the beta testing. Tan also raised https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-693631 Log offloading to centralized storage webexteams://im?space=d3be3900-70d5-11f1-8075-9faf3220290a",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 8,
+    "key": "WBXPLTFM-695924",
+    "theme": "PCI / Windows patching automation",
+    "status": "INTAKE_REJECTED",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-715304",
+        "summary": "[AIOE Delivery] WxCCE - Windows Patching - LAH integration",
+        "status": "New",
+        "assignee": "Jeven Zhou"
+      }
+    ],
+    "next": "-Ayub to help follow it up, Jeven is working on the POC w/ Calvin and Ogjen team's feedback/support. webexteams://im?space=ac12fb80-70b6-11f1-a1bc-81c7dbdcdcad",
+    "jiraStatus": "In Progress",
+    "labels": [
+      "INTAKE_REJECTED",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 9,
+    "key": "WBXPLTFM-694534",
+    "theme": "ServiceNow change creation bot",
+    "status": "INTAKE_SCRUM_DELIVERY",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-715351",
+        "summary": "[Delivery][AIOE Intake] SNOW Change Creation agent(Skill)-FY27Q1 — AI-assisted change generation, validation, and collision detection for CTG",
+        "status": "New",
+        "assignee": "Jimmy Zhou"
+      },
+      {
+        "key": "WBXPLTFM-703906",
+        "summary": "[Delivery][AIOE Intake] SNOW Change Creation agent(MCP)-FY26Q4 — AI-assisted change generation, validation, and collision detection for CTG",
+        "status": "Done",
+        "assignee": "Jimmy Zhou"
+      }
+    ],
+    "next": "correlate w/ other similar asks for Snow -James (involve domain expert to join the skill development - ) webexteams://im?space=abe9b0a0-6f4d-11f1-91d5-e39f7332062b https://jira-eng-gpk2.cisco.com/jira/browse/WBXPLTFM-695816 [AIOE Intake] ServiceNow KB Creation Bot - AI-assisted knowledge article generation, validation, and publishing workflow",
+    "jiraStatus": "In Progress",
+    "labels": [
+      "INTAKE_SCRUM_DELIVERY",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "Uplift",
+      "fy27-portfolio"
+    ]
+  },
+  {
+    "no": 10,
+    "key": "WBXPLTFM-695559",
+    "theme": "WxCCE UC health check",
+    "status": "INTAKE_SCRUM_DELIVERY",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-705171",
+        "summary": "[Delivery][AIOE Intake] WxCCE UC Health Check",
+        "status": "Done",
+        "assignee": "Jeven Zhou"
+      }
+    ],
+    "next": "Further break down for the user cases. further review within AIOE, arch review, identify owners, followups etc -James",
+    "jiraStatus": "In Progress",
+    "labels": [
+      "INTAKE_SCRUM_DELIVERY",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 11,
+    "key": "WBXPLTFM-695298",
+    "theme": "Alert/event correlation and noise reduction",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-711736",
+        "summary": "FY27Q1 - MCP  Designing Framework",
+        "status": "In Progress",
+        "assignee": "Ognjen Josipovic"
+      },
+      {
+        "key": "WBXPLTFM-713334",
+        "summary": "FY27Q1 - Observability Studio",
+        "status": "Capture",
+        "assignee": "Simpson Chua"
+      }
+    ],
+    "implementations": [],
+    "next": "make this measurable for DI/CCE in the KB (RAG way) for some examples - , (Monami/Amandeep) Certain feature in EMS for manual correlation, then add the rules to the list (group), to the runbooks webexteams://im?space=24720230-71a5-11f1-9802-19f343fdc66d , James to help facilitate",
+    "jiraStatus": "In Progress",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "fy27-portfolio"
+    ]
+  },
+  {
+    "no": 12,
+    "key": "WBXPLTFM-695661",
+    "theme": "ROOT autonomous bot API access",
+    "status": "INTAKE_EXTERNAL_BLOCKED",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-713637",
+        "summary": "ROOT development for AUTONOMOUS BOT with API access to Tools containing data relevant to the RCA creation",
+        "status": "New",
+        "assignee": "Unassigned"
+      }
+    ],
+    "next": "depend on 16, bundled together",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_EXTERNAL_BLOCKED",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 13,
+    "key": "WBXPLTFM-697733",
+    "theme": "AI-driven MACD / service request fulfillment",
+    "status": "INTAKE_ARCH_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-710187",
+        "summary": "S163 WBXPLTFM-697733 - Gather CCE MACD inventory and implementation inputs -CCE",
+        "status": "New",
+        "assignee": "Amandeep Birdi"
+      },
+      {
+        "key": "WBXPLTFM-707842",
+        "summary": "S163 WBXPLTFM-697733 - Gather MACD inventory and implementation inputs -DI",
+        "status": "In Progress",
+        "assignee": "Tan Nguyen"
+      },
+      {
+        "key": "WBXPLTFM-722894",
+        "summary": "S165 Gather Manual MOPs for Firewall, DNS, and Firmware Automation Targets",
+        "status": "In Progress",
+        "assignee": "James Kelsall"
+      }
+    ],
+    "implementations": [],
+    "next": "Created Jiras to track DI and CCE cases. gathering the list of MACD (moves /add changes / deletions) items, the implementation process/documentation for each, access requirements, inputs and outputs (pick typical 2-3 to see, like FW related)",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_ARCH_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 14,
+    "key": "WBXPLTFM-695872",
+    "theme": "WxCCE function and failover testing automation",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [],
+    "next": "Operation tooling automation team to continue? -James to check w/ Oggie / Calvin...",
+    "jiraStatus": "Backlog",
+    "labels": [
+      "COGS-Efficiency",
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 15,
+    "key": "WBXPLTFM-671890",
+    "theme": "WxCCE queue-management bot for ticket workflows, assignment, and escalation",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-681318",
+        "summary": "FY26Q4 - WxCCE QM Bot: Webex Integration Research & PoC (Bot SDK, Messaging API, MCP)",
+        "status": "Will Not Implement",
+        "assignee": "Rocky Chi [X]"
+      }
+    ],
+    "next": "It will be implemented in EAP, tools will be done by Ognjen's team and SOs for skills; James (6/18): Needs a follow up discussion on overlap with AWA and possible AI integrations with AWA to address gaps",
+    "jiraStatus": "Blocked",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 16,
+    "key": "WBXPLTFM-695648",
+    "theme": "PRIME / ROOT EAP enablement for incident and RCA workflows",
+    "status": "INTAKE_SCRUM_DELIVERY",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-702722",
+        "summary": "S163 PRIME/ROOT LLM Proxy key onboarding (07/08 - 07/21)",
+        "status": "Done",
+        "assignee": "Josh Godwin"
+      },
+      {
+        "key": "WBXPLTFM-707652",
+        "summary": "S164 PRIME/ROOT LLM Proxy key onboarding (07/22 - 08/04)",
+        "status": "Done",
+        "assignee": "Josh Godwin"
+      }
+    ],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-713639",
+        "summary": "PRIME/ROOT EAP Enablement - EAP-hosted agents with governed LLM access for incident and RCA workflows",
+        "status": "New",
+        "assignee": "Unassigned"
+      }
+    ],
+    "next": "LLM Proxy Key application and platform intake submitted for ROOT, following up the feasibility of combine PRIME and ROOT for the same. -Rob and Josh... 2026-07-02 James Kelsall: Intake committed with measurement and capacity validation pending. Execution is tracked through WBXPLTFM-702722 (LLM Proxy key onboarding) and WBXPLTFM-702723 (token consumption baseline and quota projection), with WBXPLTFM-699902 providing the related BYOK guidance... Rob team to work on LLM Proxy Key application process, along w/ Gavin if any help is needed. webexteams://im?space=79c28410-6f4a-11f1-beaa-93d76ab89087",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_SCRUM_DELIVERY",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 17,
+    "key": "WBXPLTFM-695816",
+    "theme": "ServiceNow KB creation bot",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [],
+    "next": "Yan is going to PO review and add to the phase two of service now MCP scope.",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 18,
+    "key": "WBXPLTFM-693631",
+    "theme": "Log offloading to centralized storage",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [],
+    "next": "Pending further discussion w/ cross-functional teams -James & Tan webexteams://im?space=d4d5be70-5484-11f1-9a82-fd58de7e568d",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 19,
+    "key": "WBXPLTFM-695943",
+    "theme": "CUBE-related automation opportunity for CDI and CCE",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [],
+    "implementations": [
+      {
+        "key": "WBXPLTFM-713636",
+        "summary": "CUBE Multi-Device Debugger & Call Analyzer — parallel debug/capture collection with AI SIP root-cause analysis",
+        "status": "New",
+        "assignee": "Unassigned"
+      }
+    ],
+    "next": "this would be a great benefit for both CDI and CCE, even more for CDI since they are using more CUBEs",
+    "jiraStatus": "New",
+    "labels": [
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio"
+    ]
+  },
+  {
+    "no": 20,
+    "key": "WBXPLTFM-711358",
+    "theme": "Automated impact detection for DI services",
+    "status": "INTAKE_PO_REVIEW",
+    "blockers": [
+      {
+        "key": "WBXPLTFM-707466",
+        "summary": "S163 WBXPLTFM-686251 - Share DI SLA metric tooling inputs",
+        "status": "Done",
+        "assignee": "Tan Nguyen"
+      },
+      {
+        "key": "WBXPLTFM-711736",
+        "summary": "FY27Q1 - MCP  Designing Framework",
+        "status": "In Progress",
+        "assignee": "Ognjen Josipovic"
+      },
+      {
+        "key": "WBXPLTFM-713334",
+        "summary": "FY27Q1 - Observability Studio",
+        "status": "Capture",
+        "assignee": "Simpson Chua"
+      }
+    ],
+    "implementations": [],
+    "next": "Tan/Russ team is working on gathering the details",
+    "jiraStatus": "New",
+    "labels": [
+      "COGS-Efficiency",
+      "INTAKE_PO_REVIEW",
+      "REQ_SOPT_AIOE",
+      "SOPT_ServiceOps_Efficiency-Portfolio",
+      "servicenow_problemtask"
+    ]
+  }
 ];
-
     const statusClass = {
       "INTAKE_PO_REVIEW": "po",
       "INTAKE_CAPTURED": "capture",
@@ -956,7 +1133,8 @@
       const status = statusFilter.value;
       const filtered = items.filter((item) => {
         const blockerSearch = item.blockers.map((blocker) => [blockerKey(blocker), blockerStatus(blocker), blockerAssignee(blocker)].join(" ")).join(" ");
-        const haystack = [item.key, item.theme, item.jiraStatus, item.status, (item.labels || []).join(" "), blockerSearch, item.next].join(" ").toLowerCase();
+      const implementationSearch = item.implementations.map((issue) => [issue.key, issue.summary, issue.status, issue.assignee].join(" ")).join(" ");
+        const haystack = [item.key, item.theme, item.jiraStatus, item.status, (item.labels || []).join(" "), blockerSearch, implementationSearch, item.next].join(" ").toLowerCase();
         return (!status || item.status === status) && (!query || haystack.includes(query));
       });
 
