@@ -452,7 +452,7 @@
       .toolbar { display: none; }
       table { min-width: 0; }
     }
-  .next-step-editor{width:100%;min-width:260px;min-height:110px;padding:9px;border:1px solid var(--line);border-radius:7px;font:inherit;line-height:1.45;resize:vertical;background:#fff}.next-step-editor:focus{outline:2px solid var(--teal);outline-offset:1px}.sync-actions{display:flex;align-items:center;gap:8px;margin-top:7px}.sync-button,.configure-sync{border:0;border-radius:6px;background:var(--teal);color:#fff;padding:7px 10px;font-weight:700;cursor:pointer}.sync-button:disabled{opacity:.55;cursor:wait}.sync-state{font-size:12px;color:var(--muted)}.comment-item{padding-bottom:9px;margin-bottom:9px;border-bottom:1px solid var(--line)}.comment-item:last-child{padding-bottom:0;margin-bottom:0;border-bottom:0}h1{white-space:nowrap;font-size:clamp(25px,3.2vw,44px)}</style>
+  .comment-item{padding-bottom:9px;margin-bottom:9px;border-bottom:1px solid var(--line)}.comment-item:last-child{padding-bottom:0;margin-bottom:0;border-bottom:0}h1{white-space:nowrap;font-size:clamp(25px,3.2vw,44px)}</style>
 </head>
 <body>
   <div class="shell">
@@ -554,7 +554,6 @@
         </div>
         <div class="toolbar">
           <div class="filters">
-            <button id="configureSync" class="configure-sync" type="button">Configure Sync</button>
             <input id="search" type="search" placeholder="Search Jira, theme, status, blocker, or next step" aria-label="Search portfolio">
             <select id="statusFilter" aria-label="Filter by status"><option value="">All statuses</option><option value="INTAKE_ARCH_REVIEW">Arch Review</option><option value="INTAKE_EXTERNAL_BLOCKED">External Blocked</option><option value="INTAKE_PO_REVIEW">Po Review</option><option value="INTAKE_REJECTED">Rejected</option><option value="INTAKE_SCRUM_DELIVERY">Scrum Delivery</option></select>
           </div>
@@ -1387,7 +1386,7 @@
             <td>${escapeHtml(item.jiraStatus || "Unknown")}</td>
             <td><span class="status ${statusClass[item.status] || ""}">${escapeHtml(item.status)}</span></td>
             <td>${blockers}</td>
-            <td><textarea class="next-step-editor" data-key="${escapeHtml(item.key)}" aria-label="Next Step for ${escapeHtml(item.key)}">${escapeHtml(loadDraft(item.key, item.next))}</textarea><div class="sync-actions"><button class="sync-button" type="button" data-key="${escapeHtml(item.key)}">Sync to Confluence</button><span class="sync-state" data-key="${escapeHtml(item.key)}"></span></div></td>
+            <td>${linkInlineRefs(item.next)}</td>
             <td>${latestComments}</td>
             <td>${implementations}</td>
           </tr>
@@ -1395,39 +1394,8 @@
       }).join("");
 
       rowCount.textContent = `${filtered.length} of ${items.length} rows`;
-      bindEditors();
     }
 
-    function syncApiUrl() { return localStorage.getItem("efficiencySyncApiUrl") || ""; }
-    function loadDraft(key, fallback) { return localStorage.getItem("nextStepDraft:" + key) ?? fallback; }
-    function configureSync() {
-      const value = prompt("Internal Confluence sync API URL", syncApiUrl());
-      if (value && /^https:\/\//i.test(value.trim())) localStorage.setItem("efficiencySyncApiUrl", value.trim());
-    }
-    async function syncNextStep(button) {
-      const key = button.dataset.key;
-      const editor = rows.querySelector('.next-step-editor[data-key="' + key + '"]');
-      const state = rows.querySelector('.sync-state[data-key="' + key + '"]');
-      let endpoint = syncApiUrl();
-      if (!endpoint) { configureSync(); endpoint = syncApiUrl(); }
-      if (!endpoint) { state.textContent = "Sync service not configured"; return; }
-      button.disabled = true;
-      state.textContent = "Syncing…";
-      try {
-        const response = await fetch(endpoint, { method: "POST", credentials: "include", headers: { "Content-Type": "application/json", "X-Requested-With": "EfficiencyPortfolio" }, body: JSON.stringify({ jiraKey: key, nextStep: editor.value }) });
-        const result = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(result.error || "Sync failed (" + response.status + ")");
-        localStorage.removeItem("nextStepDraft:" + key);
-        state.textContent = "Synced · Confluence v" + (result.confluenceVersion || "updated");
-      } catch (error) { state.textContent = error.message; }
-      finally { button.disabled = false; }
-    }
-    function bindEditors() {
-      rows.querySelectorAll(".next-step-editor").forEach(editor => editor.addEventListener("input", () => localStorage.setItem("nextStepDraft:" + editor.dataset.key, editor.value)));
-      rows.querySelectorAll(".sync-button").forEach(button => button.addEventListener("click", () => syncNextStep(button)));
-    }
-
-    document.getElementById("configureSync").addEventListener("click", configureSync);
     search.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
     render();
