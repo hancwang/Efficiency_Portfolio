@@ -1147,6 +1147,12 @@
               </div>
             `).join("")}</div>`
           : `<span class="empty">None</span>`;
+        const implementations = item.implementations.length
+
+          ? `<div class="blocker-list">${item.implementations.map((issue) => `<div class="blocker-item">${jiraAnchor(issue.key, "blocker")}<div>${escapeHtml(issue.summary)}</div><div class="blocker-meta">${escapeHtml(issue.status)} - ${escapeHtml(issue.assignee)}</div></div>`).join("")}</div>`
+
+          : `<span class="empty">None</span>`;
+
         return `
           <tr>
             <td>${item.no}</td>
@@ -1156,6 +1162,7 @@
             <td><span class="status ${statusClass[item.status] || ""}">${escapeHtml(item.status)}</span></td>
             <td>${blockers}</td>
             <td>${linkInlineRefs(item.next)}</td>
+            <td>${implementations}</td>
           </tr>
         `;
       }).join("");
